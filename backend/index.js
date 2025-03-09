@@ -19,7 +19,7 @@ app.use(cors());
 
 app.get("/", (request, response) => {
   console.log(request);
-  return response.status(201).send("It worked..");
+  return response.status(201).send("Temple of Letters - Server");
 });
 
 app.use("/books", booksRoute);
