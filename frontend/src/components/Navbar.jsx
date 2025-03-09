@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import BackButton from "./BackButton";
+import BackButton from "./BackButton.jsx";
 import { CiViewList } from "react-icons/ci";
 
 const Navbar = ({ CardView, setCardView }) => {

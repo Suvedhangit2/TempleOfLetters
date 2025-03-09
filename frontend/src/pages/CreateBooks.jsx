@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Links from "./Links";
+import Links from "./Links.jsx";
 import { useNavigate } from "react-router-dom";
 import { useSnackbar } from "notistack";
-import Navbar from "../components/Navbar";
-import Spinner from "../components/Spinner";
-import Footer from "../components/Footer";
+import Navbar from "../components/Navbar.jsx";
+import Spinner from "../components/Spinner.jsx";
+import Footer from "../components/Footer.jsx";
 
 const CreateBooks = () => {
   const [title, setTitle] = useState("");

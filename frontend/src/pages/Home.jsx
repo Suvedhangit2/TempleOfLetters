@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Links from "./Links";
-import Navbar from "../components/Navbar";
-import BodyContent from "../components/BodyContent";
-import Footer from "../components/Footer";
+import Links from "./Links.jsx";
+import Navbar from "../components/Navbar.jsx";
+import BodyContent from "../components/BodyContent.jsx";
+import Footer from "../components/Footer.jsx";
 
 const Home = () => {
   const [books, setBooks] = useState([]);

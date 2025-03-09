@@ -7,7 +7,7 @@ import { AiOutlineEdit } from "react-icons/ai";
 import { BsInfoCircle, BsCalendar } from "react-icons/bs";
 import { GoNumber } from "react-icons/go";
 import { MdOutlineDelete } from "react-icons/md";
-import BookModal from "./BookModal";
+import BookModal from "./BookModal.jsx";
 
 const BookSingleCard = ({ book }) => {
   const [showModal, setShowModal] = useState(false);

@@ -1,5 +1,5 @@
 import React from "react";
-import BookSingleCard from "./BookSingleCard";
+import BookSingleCard from "./BookSingleCard.jsx";
 
 const BooksCard = ({ books }) => {
   return (

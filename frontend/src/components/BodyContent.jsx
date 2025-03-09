@@ -1,7 +1,7 @@
 import React from "react";
-import Spinner from "./Spinner";
-import BooksTable from "./home/BooksTable";
-import BooksCard from "./home/BooksCard";
+import Spinner from "./Spinner.jsx";
+import BooksTable from "./home/BooksTable.jsx";
+import BooksCard from "./home/BooksCard.jsx";
 
 const BodyContent = ({ loading, books, CardView }) => {
   return (

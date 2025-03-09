@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Links from "./Links";
+import Links from "./Links.jsx";
 import { useNavigate, useParams } from "react-router-dom";
 import { useSnackbar } from "notistack";
-import Navbar from "../components/Navbar";
-import Spinner from "../components/Spinner";
-import Button from "../components/Button";
-import Footer from "../components/Footer";
+import Navbar from "../components/Navbar.jsx";
+import Spinner from "../components/Spinner.jsx";
+import Button from "../components/Button.jsx";
+import Footer from "../components/Footer.jsx";
 
 const DeleteBook = () => {
   const [loading, setLoading] = useState(false);
